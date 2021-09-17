@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GESTION DE USUARIOS</title>
+
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	</head>
+	<body>
+        <div class="content">
+            <br><br><br><br>
+            <h1 class="logo">GESTION DE USUARIOS</h1>
+                <br>
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Gestion de Usuarios</h3>
+                    <form action="CONTROLADOR/control.php" method="POST">
+                        <p>
+                            <label>Cedula</label>
+                            <input type="number" name="cedu">
+                        </p>
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="nomb">
+                        </p>
+                        <p>
+                            <label>Correo Electronico</label>
+                            <input type="email" name="correo">
+                        </p>
+                        <p>
+                            <label>Usuario</label>
+                            <input type="text" name="usu">
+                        </p>
+                        <p>
+                            <label>Contraseña</label>
+                            <input type="password" name="contra">
+                        </p>
+
+                        <p class="block">
+                            <button type="submit" name="sub_inicio">
+                                AGREGAR
+                            </button>
+                        </p>
+                    </form>
+                </div>
+            
+
+            </div>
+        </div>
+         
+	</body>
+
+</html>
