@@ -7,7 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
-//import com.edu.unbosque.equipo3.tiendagenerica.DTO.ClienteVO;
+
 import com.edu.unbosque.grupo16.equipo3.tiendagenerica.DTO.LoginVO;
 
 public class LoginDAO {
