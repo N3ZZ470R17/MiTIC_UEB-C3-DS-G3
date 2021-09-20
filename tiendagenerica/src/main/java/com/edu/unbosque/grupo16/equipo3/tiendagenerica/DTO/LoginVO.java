@@ -1,4 +1,4 @@
-package com.edu.unbosque.equipo3.tiendagenerica.DTO;
+package com.edu.unbosque.grupo16.equipo3.tiendagenerica.DTO;
 
 public class LoginVO {
 

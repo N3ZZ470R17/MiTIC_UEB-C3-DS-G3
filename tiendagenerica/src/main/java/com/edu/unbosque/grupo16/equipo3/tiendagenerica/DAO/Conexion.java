@@ -1,4 +1,4 @@
-package com.edu.unbosque.equipo3.tiendagenerica.DAO;
+package com.edu.unbosque.grupo16.equipo3.tiendagenerica.DAO;
 
 import java.sql.*;
 

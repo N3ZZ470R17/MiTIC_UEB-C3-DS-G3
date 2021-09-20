@@ -1,4 +1,4 @@
-package com.edu.unbosque.equipo3.tiendagenerica.DAO;
+package com.edu.unbosque.grupo16.equipo3.tiendagenerica.DAO;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
 //import com.edu.unbosque.equipo3.tiendagenerica.DTO.ClienteVO;
-import com.edu.unbosque.equipo3.tiendagenerica.DTO.LoginVO;
+import com.edu.unbosque.grupo16.equipo3.tiendagenerica.DTO.LoginVO;
 
 public class LoginDAO {
 

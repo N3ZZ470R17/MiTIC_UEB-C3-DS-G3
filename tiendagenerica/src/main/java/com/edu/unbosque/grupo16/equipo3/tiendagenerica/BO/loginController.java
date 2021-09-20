@@ -1,4 +1,4 @@
-package com.edu.unbosque.equipo3.tiendagenerica.BO;
+package com.edu.unbosque.grupo16.equipo3.tiendagenerica.BO;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,8 +10,8 @@ import org.springframework.boot.json.JsonParser;
 import org.springframework.web.bind.annotation.RequestMapping; 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.edu.unbosque.equipo3.tiendagenerica.DAO.*;
-import com.edu.unbosque.equipo3.tiendagenerica.DTO.*;
+import com.edu.unbosque.grupo16.equipo3.tiendagenerica.DAO.*;
+import com.edu.unbosque.grupo16.equipo3.tiendagenerica.DTO.*;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
