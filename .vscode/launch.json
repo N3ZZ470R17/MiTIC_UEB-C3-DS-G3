@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TiendagenericaApplication<tiendagenerica>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.edu.unbosque.equipo3.tiendagenerica.tiendagenerica.TiendagenericaApplication",
+            "projectName": "tiendagenerica",
+            "args": ""
+        }
+    ]
+}

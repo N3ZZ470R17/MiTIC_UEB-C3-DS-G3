@@ -8,9 +8,10 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.edu.unbosque.equipo3.tiendagenerica</groupId>
+	<groupId>com.edu.unbosque.grupo16.equipo3</groupId>
 	<artifactId>tiendagenerica</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>tiendagenerica</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -39,6 +40,11 @@
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -1,4 +1,4 @@
-package com.edu.unbosque.equipo3.tiendagenerica.tiendagenerica;
+package com.edu.unbosque.grupo16.equipo3.tiendagenerica;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
