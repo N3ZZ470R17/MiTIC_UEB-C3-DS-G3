@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prueba CRUD Usuario</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <h1>Usuarios</h1>
+    <div style="border:1px solid black;width: 50%;">
+        <form>
+            <table>
+                <tr>
+                    <td><label>Cedula del Usuario:</label></td>
+                    <td><input id="cedula_usuario" type="text" value=""></td>
+                    <td><input type="button" value="Buscar" id="fndUsr"></td>
+                </tr>
+                <tr>
+                    <td><label>Correo Electrónico del Usuario:</label></td>
+                    <td><input id="email_usuario" type="email" value=""></td>
+                </tr>
+                <tr>
+                    <td><label>Nombre de Usuario:</label></td>
+                    <td><input id="nombre_usuario" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input id="password" type="password" value=""></td>
+                </tr>
+                <tr>
+                    <td><label>Usuario:</label></td>
+                    <td><input id="usuario" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Agregar (Create)" id="crtUsr"></td>
+                    <td><input type="button" value="Listar (Read)" id="lstUsr"></td>
+                    <td><input type="button" value="Actualizar (Update)" id="updtUsr"></td>
+                    <td><input type="button" value="Eliminar (Delete)" id="delUsr"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <!--Info JSON-->
+    <div id="msg">
+    </div>
+</body>
+
+</html>
